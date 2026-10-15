@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2cbf"/>
+      <stop offset="100%" stop-color="#4cc9f0"/>
+    </linearGradient>
+    <linearGradient id="accentSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241b3d"/>
+      <stop offset="100%" stop-color="#140f24"/>
+    </linearGradient>
+    <linearGradient id="bodyLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e2350"/>
+      <stop offset="100%" stop-color="#1b1430"/>
+    </linearGradient>
+    <radialGradient id="glowSpot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4cc9f0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowSpotPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7b2cbf" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="blurTight" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="300.0" cy="360.79999999999995" rx="204.00000000000003" ry="39.6" fill="url(#glowSpotPurple)" filter="url(#blurSoft)"/>
+
+  <g>
+    <ellipse cx="300" cy="370" rx="110" ry="16" fill="url(#glowSpotPurple)" filter="url(#blurSoft)"/>
+    <path d="M300,90
+             C 355,90 392,130 397,195
+             C 402,265 388,345 300,352
+             C 212,345 198,265 203,195
+             C 208,130 245,90 300,90 Z"
+          fill="url(#body)" stroke="url(#accentSoft)" stroke-width="2.5"/>
+    <path d="M300,96 C 300,150 300,210 300,205" stroke="url(#accentSoft)" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M254,100 C 240,130 236,170 240,205" stroke="#05030a" stroke-width="2" fill="none" opacity="0.35"/>
+    <path d="M346,100 C 360,130 364,170 360,205" stroke="#05030a" stroke-width="2" fill="none" opacity="0.35"/>
+    <rect x="286" y="118" width="28" height="48" rx="13" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="2"/>
+    <rect x="296" y="128" width="8" height="12" rx="4" fill="#4cc9f0" opacity="0.8"/>
+    <circle cx="300" cy="275" r="24" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <circle cx="300" cy="275" r="11" fill="url(#accent)"/>
+    <path d="M 255,78 A 70,70 0 0 1 345,78" stroke="url(#accent)" stroke-width="3" fill="none" opacity="0.55" stroke-linecap="round"/>
+    <path d="M 268,64 A 90,90 0 0 1 332,64" stroke="url(#accent)" stroke-width="3" fill="none" opacity="0.3" stroke-linecap="round"/>
+  </g>
+</svg>

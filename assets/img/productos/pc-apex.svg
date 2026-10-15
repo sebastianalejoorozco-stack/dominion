@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2cbf"/>
+      <stop offset="100%" stop-color="#4cc9f0"/>
+    </linearGradient>
+    <linearGradient id="accentSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241b3d"/>
+      <stop offset="100%" stop-color="#140f24"/>
+    </linearGradient>
+    <linearGradient id="bodyLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e2350"/>
+      <stop offset="100%" stop-color="#1b1430"/>
+    </linearGradient>
+    <radialGradient id="glowSpot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4cc9f0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowSpotPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7b2cbf" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="blurTight" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="300.0" cy="360.79999999999995" rx="204.00000000000003" ry="39.6" fill="url(#glowSpotPurple)" filter="url(#blurSoft)"/>
+
+  <g>
+    <rect x="175" y="68" width="250" height="330" rx="28" fill="url(#body)" stroke="url(#accentSoft)" stroke-width="2"/>
+    <rect x="178" y="40" width="244" height="34" rx="16" fill="url(#bodyLight)" stroke="url(#accentSoft)" stroke-width="1.5"/>
+    
+    <circle cx="228" cy="57" r="15" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="3.5"/>
+    <circle cx="228" cy="57" r="4.5" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <circle cx="228" cy="57" r="1.7999999999999998" fill="#e7f6ff"/>
+    
+    <circle cx="300" cy="57" r="15" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="3.5"/>
+    <circle cx="300" cy="57" r="4.5" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <circle cx="300" cy="57" r="1.7999999999999998" fill="#e7f6ff"/>
+    
+    <circle cx="372" cy="57" r="15" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="3.5"/>
+    <circle cx="372" cy="57" r="4.5" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <circle cx="372" cy="57" r="1.7999999999999998" fill="#e7f6ff"/>
+    <path d="M 228 72 C 228 110, 250 120, 262 150" stroke="url(#accent)" stroke-width="4" fill="none" opacity="0.55" stroke-linecap="round"/>
+    <path d="M 372 72 C 372 110, 350 120, 338 150" stroke="url(#accent)" stroke-width="4" fill="none" opacity="0.55" stroke-linecap="round"/>
+    <rect x="345" y="110" width="58" height="268" rx="14" fill="url(#bodyLight)"/>
+    <rect x="356" y="124" width="4" height="240" rx="2" fill="#3a2a63" opacity="0.8"/>
+    <rect x="368" y="124" width="4" height="240" rx="2" fill="#3a2a63" opacity="0.8"/>
+    <rect x="380" y="124" width="4" height="240" rx="2" fill="#3a2a63" opacity="0.8"/>
+    <rect x="392" y="124" width="4" height="240" rx="2" fill="#3a2a63" opacity="0.8"/>
+    <rect x="195" y="140" width="140" height="310" rx="16" fill="#0a0714" fill-opacity="0.6" stroke="url(#accentSoft)" stroke-width="1.5"/>
+    
+    <circle cx="265" cy="195" r="54" fill="url(#glowSpot)" filter="url(#blurSoft)"/>
+    <circle cx="265" cy="195" r="40" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="5"/>
+    <circle cx="265" cy="195" r="13.600000000000001" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <circle cx="265" cy="195" r="5.6000000000000005" fill="#e7f6ff"/>
+    <line x1="273.3" y1="198.0" x2="295.8" y2="206.2" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    <line x1="264.2" y1="203.8" x2="262.1" y2="227.7" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    <line x1="256.3" y1="196.5" x2="232.7" y2="200.7" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    <line x1="261.3" y1="187.0" x2="251.1" y2="165.3" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    <line x1="271.7" y1="189.3" x2="290.1" y2="173.9" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    
+    <circle cx="265" cy="320" r="54" fill="url(#glowSpot)" filter="url(#blurSoft)"/>
+    <circle cx="265" cy="320" r="40" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="5"/>
+    <circle cx="265" cy="320" r="13.600000000000001" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <circle cx="265" cy="320" r="5.6000000000000005" fill="#e7f6ff"/>
+    <line x1="273.3" y1="323.0" x2="295.8" y2="331.2" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    <line x1="264.2" y1="328.8" x2="262.1" y2="352.7" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    <line x1="256.3" y1="321.5" x2="232.7" y2="325.7" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    <line x1="261.3" y1="312.0" x2="251.1" y2="290.3" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    <line x1="271.7" y1="314.3" x2="290.1" y2="298.9" stroke="#ecebf5" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+    <path d="M195 400 L 425 338" stroke="url(#accentSoft)" stroke-width="22" opacity="0.12"/>
+    <rect x="205" y="422" width="120" height="8" rx="4" fill="url(#accent)" opacity="0.95"/>
+    <circle cx="403" cy="88" r="5" fill="#e7f6ff"/>
+    <circle cx="403" cy="88" r="11" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <rect x="205" y="408" width="34" height="11" rx="4" fill="url(#bodyLight)"/>
+    <rect x="363" y="408" width="34" height="11" rx="4" fill="url(#bodyLight)"/>
+  </g>
+</svg>

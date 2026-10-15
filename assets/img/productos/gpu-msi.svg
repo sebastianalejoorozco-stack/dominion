@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2cbf"/>
+      <stop offset="100%" stop-color="#4cc9f0"/>
+    </linearGradient>
+    <linearGradient id="accentSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241b3d"/>
+      <stop offset="100%" stop-color="#140f24"/>
+    </linearGradient>
+    <linearGradient id="bodyLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e2350"/>
+      <stop offset="100%" stop-color="#1b1430"/>
+    </linearGradient>
+    <radialGradient id="glowSpot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4cc9f0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowSpotPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7b2cbf" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="blurTight" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="300.0" cy="360.79999999999995" rx="204.00000000000003" ry="39.6" fill="url(#glowSpotPurple)" filter="url(#blurSoft)"/>
+
+  <g>
+    <rect x="70" y="150" width="460" height="140" rx="20" fill="url(#body)" stroke="url(#accentSoft)" stroke-width="2"/>
+    <rect x="70" y="150" width="460" height="10" rx="5" fill="url(#accent)" opacity="0.9"/>
+    
+    <circle cx="168" cy="220" r="52" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="168" cy="220" r="14.560000000000002" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <circle cx="168" cy="220" r="5.72" fill="#e7f6ff"/>
+    <line x1="178.4" y1="220.0" x2="212.2" y2="220.0" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="173.2" y1="229.0" x2="190.1" y2="258.3" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="162.8" y1="229.0" x2="145.9" y2="258.3" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="157.6" y1="220.0" x2="123.8" y2="220.0" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="162.8" y1="211.0" x2="145.9" y2="181.7" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="173.2" y1="211.0" x2="190.1" y2="181.7" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    
+    <circle cx="300" cy="220" r="52" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="300" cy="220" r="14.560000000000002" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <circle cx="300" cy="220" r="5.72" fill="#e7f6ff"/>
+    <line x1="310.4" y1="220.0" x2="344.2" y2="220.0" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="305.2" y1="229.0" x2="322.1" y2="258.3" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="294.8" y1="229.0" x2="277.9" y2="258.3" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="289.6" y1="220.0" x2="255.8" y2="220.0" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="294.8" y1="211.0" x2="277.9" y2="181.7" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="305.2" y1="211.0" x2="322.1" y2="181.7" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    
+    <circle cx="432" cy="220" r="52" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="432" cy="220" r="14.560000000000002" fill="url(#glowSpot)" filter="url(#blurTight)"/>
+    <circle cx="432" cy="220" r="5.72" fill="#e7f6ff"/>
+    <line x1="442.4" y1="220.0" x2="476.2" y2="220.0" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="437.2" y1="229.0" x2="454.1" y2="258.3" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="426.8" y1="229.0" x2="409.9" y2="258.3" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="421.6" y1="220.0" x2="387.8" y2="220.0" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="426.8" y1="211.0" x2="409.9" y2="181.7" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <line x1="437.2" y1="211.0" x2="454.1" y2="181.7" stroke="#ecebf5" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+    <rect x="30" y="168" width="42" height="104" rx="8" fill="url(#bodyLight)" stroke="url(#accentSoft)" stroke-width="1.5"/>
+    <rect x="42" y="180" width="18" height="5" rx="2.5" fill="#05030a"/>
+    <rect x="42" y="195" width="18" height="5" rx="2.5" fill="#05030a"/>
+    <rect x="42" y="210" width="12" height="5" rx="2.5" fill="#05030a"/>
+    <rect x="455" y="112" width="60" height="38" rx="8" fill="url(#bodyLight)" stroke="url(#accent)" stroke-width="2"/>
+    <rect x="483" y="112" width="4" height="38" fill="#05030a" opacity="0.5"/>
+    <circle cx="470" cy="131" r="3" fill="#e7f6ff"/>
+    <circle cx="500" cy="131" r="3" fill="#e7f6ff"/>
+    <rect x="110" y="300" width="380" height="14" rx="7" fill="url(#bodyLight)"/>
+    <ellipse cx="300" cy="340" rx="230" ry="18" fill="url(#glowSpotPurple)" filter="url(#blurSoft)"/>
+  </g>
+</svg>

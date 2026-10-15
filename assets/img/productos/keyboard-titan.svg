@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+
+  <defs>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2cbf"/>
+      <stop offset="100%" stop-color="#4cc9f0"/>
+    </linearGradient>
+    <linearGradient id="accentSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#241b3d"/>
+      <stop offset="100%" stop-color="#140f24"/>
+    </linearGradient>
+    <linearGradient id="bodyLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e2350"/>
+      <stop offset="100%" stop-color="#1b1430"/>
+    </linearGradient>
+    <radialGradient id="glowSpot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4cc9f0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4cc9f0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowSpotPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7b2cbf" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="blurTight" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  
+
+  <g>
+    <rect x="60" y="130" width="480" height="210" rx="20" fill="url(#body)" stroke="url(#accentSoft)" stroke-width="2"/>
+  <ellipse cx="300" cy="345" rx="250" ry="16" fill="url(#glowSpotPurple)" filter="url(#blurSoft)"/>
+  <rect x="55" y="335" width="490" height="10" rx="5" fill="url(#accent)" opacity="0.55" filter="url(#blurTight)"/>
+  <rect x="80.0" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.85" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="114.2" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.55" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="148.3" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="182.5" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="216.6" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="250.8" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="284.9" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="319.1" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.85" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="353.2" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.55" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="387.4" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="421.5" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="455.7" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="489.8" y="148.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="80.0" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.55" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="114.2" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="148.3" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="182.5" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="216.6" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="250.8" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="284.9" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.85" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="319.1" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.55" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="353.2" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="387.4" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="421.5" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="455.7" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="489.8" y="186.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="80.0" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="114.2" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="148.3" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="182.5" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="216.6" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="250.8" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.85" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="284.9" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.55" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="319.1" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="353.2" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="387.4" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="421.5" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="455.7" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="489.8" y="224.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.85" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="80.0" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="114.2" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="148.3" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="182.5" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="216.6" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.85" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="250.8" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.55" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="284.9" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="319.1" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="353.2" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="387.4" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="421.5" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#bodyLight)" fill-opacity="1" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="455.7" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.85" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="489.8" y="262.0" width="30.2" height="32.0" rx="6" fill="url(#accent)" fill-opacity="0.55" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="150.0" y="300.0" width="300.0" height="32.0" rx="7" fill="url(#bodyLight)" stroke="#05030a" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="80.0" y="300.0" width="60" height="32.0" rx="7" fill="url(#accent)" fill-opacity="0.5"/>
+  <rect x="489.8" y="300.0" width="30.2" height="32.0" rx="7" fill="url(#accent)" fill-opacity="0.5"/>
+  </g>
+</svg>
